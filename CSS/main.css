@@ -26,4 +26,92 @@ CSS reset
 General styles (General Module, wrapping around the modules bellow)
 (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
 */
+body{
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size:20px;
+    width:99%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:#42d1b9;
+}
+h1{
+    font-size:60px;
+    font-family: 'Londrina Sketch', cursive;
+}
+/* header styles */
 
+.top-nav{
+    width:98%;
+    display:inline;
+    padding:1rem;
+    margin-left:auto;
+    margin-right: auto;
+}
+.small-logo{
+    float:left;
+    padding:1.5rem;
+    width:10%;
+}
+
+.content {
+    float:right;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+    list-style: outside none none;
+    width:40%;
+    letter-spacing: 0.09rem;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.content li{
+    display:inline-block;
+    padding:0.3rem;
+}
+
+/* content styles */
+
+.main-container{
+    padding:10rem;
+    margin-top:auto;
+    border:2rem;
+    margin-right:auto;
+    margin-left:auto;
+    width:75%;
+    text-align: center;
+}
+
+.main-heading{
+    padding:3rem;
+    background-color:aliceblue
+}
+
+/* footer styles */
+
+
+/* mobile styles */
+
+@media only screen and (max-width:1024px) {
+    body{
+        color:blue;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body{
+        color:red;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    body{
+        color:green;
+    }
+
+    @media only screen and (max-width:320px) {
+        body{
+            color:yellow;
+        }
+    }
+}
