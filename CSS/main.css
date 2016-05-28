@@ -35,24 +35,27 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-family: 'Londrina Sketch', cursive;
 }
 
-#nav {
+.my-nav {
     background-color: aliceblue;
+    padding: 10px;
 }
 
-#welcome-main {
+{}
+
+.welcome-main {
     background-color: aliceblue;
-    margin-top: 10rem;
+    margin-top: 13rem;
     margin-right: auto;
     margin-left: auto;
     padding: 4rem;
     width: 90%;
 }
 
-#welcome-sec {
+.welcome-sec {
     background-color: aliceblue;
     margin-top: 3rem;
     margin-right: auto;
@@ -64,10 +67,10 @@ h1 {
 
 /* header styles */
 
-nav li {
+.my-contents li {
     display: inline-block;
     list-style: outside none none;
-    padding: 0.3rem;
+    padding: 0.6rem;
 }
 
 .container-fluid {
