@@ -29,9 +29,13 @@ General styles (General Module, wrapping around the modules bellow)
 
 body {
     text-align: center;
-    font-family: 'Londrina Solid', cursive;
+    font-family: monospace;
     font-size: 20px;
     background-color: #42d1b9;
+}
+
+p {
+    font-size: 14px;
 }
 
 h1 {
@@ -39,12 +43,23 @@ h1 {
     font-family: 'Londrina Sketch', cursive;
 }
 
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: monospace;
+}
+
 .my-nav {
     background-color: aliceblue;
     padding: 10px;
 }
 
-{}
+.row {
+    min-height: 100%;
+}
 
 .welcome-main {
     background-color: aliceblue;
@@ -53,9 +68,64 @@ h1 {
     margin-left: auto;
     padding: 4rem;
     width: 90%;
+    overflow: auto;
 }
 
 .welcome-sec {
+    background-color: aliceblue;
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+.portfolio-main {
+    background-color: #FFF374;
+    margin-top: 13rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4rem;
+    width: 90%;
+}
+
+.portfolio-sec {
+    background-color: aliceblue;
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+.contact-main {
+    background-color: #A3A2E8;
+    margin-top: 13rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4rem;
+    width: 90%;
+}
+
+.contact-sec {
+    background-color: aliceblue;
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+.about-main {
+    background-color: #72B7FF;
+    margin-top: 13rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4rem;
+    width: 90%;
+}
+
+.about-sec {
     background-color: aliceblue;
     margin-top: 3rem;
     margin-right: auto;
@@ -70,11 +140,8 @@ h1 {
 .my-contents li {
     display: inline-block;
     list-style: outside none none;
-    padding: 0.6rem;
-}
-
-.container-fluid {
-    text-align: center;
+    padding: 0.3rem;
+    font-size: 15px;
 }
 
 
@@ -82,6 +149,14 @@ h1 {
 
 
 /* footer styles */
+
+footer {
+    background-color: aliceblue;
+    padding-top: 20px;
+    position: relative;
+    margin-top: 100%;
+    height: 120px;
+}
 
 
 /* mobile styles */
