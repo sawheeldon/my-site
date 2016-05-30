@@ -31,7 +31,7 @@ body {
     text-align: center;
     font-family: monospace;
     font-size: 20px;
-    background-color: #42d1b9;
+    background-color: #90CCF4;
 }
 
 html,
@@ -75,12 +75,12 @@ h3 {
 }
 
 .my-nav {
-    background-color: aliceblue;
+    background-color: #ECECEC;
     padding: 10px;
 }
 
 .welcome-main {
-    background-color: aliceblue;
+    background-color: #ECECEC;
     margin-top: 13rem;
     margin-right: auto;
     margin-left: auto;
@@ -90,7 +90,7 @@ h3 {
 }
 
 .welcome-sec {
-    background-color: aliceblue;
+    background-color: #ECECEC;
     margin-top: 3rem;
     margin-right: auto;
     margin-left: auto;
@@ -99,7 +99,7 @@ h3 {
 }
 
 .portfolio-main {
-    background-color: #FFF374;
+    background-color: #ECECEC;
     margin-top: 13rem;
     margin-right: auto;
     margin-left: auto;
@@ -108,7 +108,7 @@ h3 {
 }
 
 .portfolio-sec {
-    background-color: aliceblue;
+    background-color: #ECECEC;
     margin-top: 3rem;
     margin-right: auto;
     margin-left: auto;
@@ -117,7 +117,7 @@ h3 {
 }
 
 .contact-main {
-    background-color: #A3A2E8;
+    background-color: #ECECEC;
     margin-top: 13rem;
     margin-right: auto;
     margin-left: auto;
@@ -126,7 +126,7 @@ h3 {
 }
 
 .contact-sec {
-    background-color: aliceblue;
+    background-color: #ECECEC;
     margin-top: 3rem;
     margin-right: auto;
     margin-left: auto;
@@ -135,7 +135,7 @@ h3 {
 }
 
 .about-main {
-    background-color: #72B7FF;
+    background-color: #ECECEC;
     margin-top: 13rem;
     margin-right: auto;
     margin-left: auto;
@@ -144,7 +144,7 @@ h3 {
 }
 
 .about-sec {
-    background-color: aliceblue;
+    background-color: #ECECEC;
     margin-top: 3rem;
     margin-right: auto;
     margin-left: auto;
@@ -169,7 +169,7 @@ h3 {
 /* footer styles */
 
 footer {
-    background-color: aliceblue;
+    background-color: #ECECEC;
     padding-top: 20px;
     height: 120px;
 }
