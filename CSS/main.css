@@ -98,6 +98,10 @@ h3 {
     width: 90%;
 }
 
+.me-portfolio-page {
+    background-color: #F5D452;
+}
+
 .portfolio-main {
     background-color: #ECECEC;
     margin-top: 13rem;
@@ -114,6 +118,10 @@ h3 {
     margin-left: auto;
     padding: 1rem;
     width: 90%;
+}
+
+.me-contact-page {
+    background-color: #F38585;
 }
 
 .contact-main {
