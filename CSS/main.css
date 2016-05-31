@@ -57,7 +57,12 @@ footer,
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
+}
+
+.my-links {
+    font-weight: bold;
+    font-size: 17px;
 }
 
 h1 {
@@ -72,6 +77,10 @@ h2 {
 h3 {
     font-size: 50px;
     font-family: monospace;
+}
+
+h4 {
+    font-weight: bold;
 }
 
 .my-nav {
